@@ -1,0 +1,35 @@
+# Git repositories settings
+.git
+.gitignore
+
+# Python caching and compiled bytes
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Local virtual environments packages
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# Documentation files overhead
+README.md
+LICENSE
+
+# 🔒 Telegram Core Session Files Security Shield
+*.session
+*.session-journal
+
+# IDE & OS configuration bloatware
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Bot runtime local state bypass
+restart.txt
+downloads/
